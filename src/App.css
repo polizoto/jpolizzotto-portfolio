@@ -13,6 +13,31 @@
   }
 }
 
+h1 {
+  font-size: 40px;
+  font-family: Monaco;
+}
+
+a.skip-main {
+  position: absolute;
+  left: -999px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+}
+a.skip-main:focus, a.skip-main:active {
+  display: inline-block;
+  height: auto;
+  width: auto;
+  position: static;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
