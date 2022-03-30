@@ -1,9 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
-import './components/Pages/Social';
-import Social from './components/Pages/Social';
+import Nav from './components/Nav';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
+import Resume from './components/pages/Resume';
+import Contact from './components/pages/Contact';
+import Social from './components/pages/Social';
+import Work from './components/pages/Work';
 
-function App() {
+export default function App() {
+
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'About') {
+      return <About />;
+    }
+    if (currentPage === 'Work') {
+      return <Work />;
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />;
+    }
+    return <Resume />;
+  };
+
+const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div>
       <header>
@@ -13,8 +39,10 @@ function App() {
       <h2>accessibility, coding, and teaching</h2>  
       <Social></Social>
       </div>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <main className="App" id="main-content">
+      {renderPage()}
       </main>
       <footer>
 
@@ -23,4 +51,3 @@ function App() {
   );
 }
 
-export default App;

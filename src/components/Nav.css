@@ -1,0 +1,35 @@
+nav {
+    margin: 7px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li a {
+    padding: 10px 25px;
+    font-size: 50px;
+    color: var(--secondary-color);
+    font-weight: bold;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    border-radius: 15px;
+    text-shadow: none;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+}
+
+nav ul li a:focus     {
+    border-radius: 15px;
+    text-shadow: none;
+    background-color: var(--secondary-color);
+    color: var(--tertiary-color);
+    outline: 0;
+    border: none;
+}
