@@ -8,6 +8,7 @@ import Contact from './components/pages/Contact';
 import Social from './components/pages/Social';
 import Work from './components/pages/Work';
 
+
 export default function App() {
 
   const [currentPage, setCurrentPage] = useState('Home');

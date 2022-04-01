@@ -1,8 +1,11 @@
 import { send } from 'emailjs-com';
 import React, { useState } from 'react';
 import './Contact.css';
-
 import { validateEmail } from '../../utils/helpers';
+
+const REACT_APP_SERVICE_ID = process.env.REACT_APP_SERVICE_ID
+const REACT_APP_TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID
+const REACT_APP_USER_ID = process.env.REACT_APP_USER_ID
 
 export default function Contact() {
 
@@ -18,10 +21,10 @@ export default function Contact() {
     if (!errorMessage) {
       console.log('Submit Form', formState);
       send(
-        'service_z2p07tb',
-        'template_d3iv8af',
+        REACT_APP_SERVICE_ID,
+        REACT_APP_TEMPLATE_ID,
         formState,
-        'i7vm2lppllYRQ7bxW'
+        REACT_APP_USER_ID
       )
         .then((response) => {
           console.log('SUCCESS!', response.status, response.text);
