@@ -45,7 +45,7 @@ const handlePageChange = (page) => setCurrentPage(page);
       {renderPage()}
       </main>
       <footer>
-
+      <p>&copy; Copyright 2022 | Joseph Polizzotto | Built with<a href="https://reactjs.org/" title="React" rel="noreferrer" target="_blank">React</a></p>
       </footer>
     </div>
   );

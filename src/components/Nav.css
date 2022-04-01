@@ -2,6 +2,12 @@ nav {
     margin: 7px 0;
 }
 
+.nav-tabs {
+    padding: 40px;
+    border-top: 1px solid #f4f4f4;
+    border-bottom: 1px solid #f4f4f4;
+}
+
 nav ul {
     display: flex;
     flex-wrap: wrap;
@@ -12,7 +18,7 @@ nav ul {
 
 nav ul li a {
     padding: 10px 25px;
-    font-size: 50px;
+    font-size: 28px;
     color: var(--secondary-color);
     font-weight: bold;
     text-align: center;

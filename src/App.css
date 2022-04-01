@@ -14,7 +14,7 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: Monaco;
 }
 
@@ -36,6 +36,7 @@ a.skip-main:focus, a.skip-main:active {
 .header {
   display: flex;
   justify-content: space-between;
+
 }
 
 .App-header {
@@ -51,6 +52,14 @@ a.skip-main:focus, a.skip-main:active {
 
 .App-link {
   color: #61dafb;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #f4f4f4;
 }
 
 @keyframes App-logo-spin {

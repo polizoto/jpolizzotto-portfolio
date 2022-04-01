@@ -2,7 +2,7 @@ import './Nav.css';
 
 function Nav({ currentPage, handlePageChange }) {
     return (
-      <nav>
+      <nav className="app-navigation">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
