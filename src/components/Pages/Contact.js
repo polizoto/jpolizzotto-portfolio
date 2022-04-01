@@ -1,20 +1,88 @@
+import { send } from 'emailjs-com';
+import React, { useState } from 'react';
+import './Contact.css';
+
+import { validateEmail } from '../../utils/helpers';
+
 export default function Contact() {
+
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+
+
+
+  const [errorMessage, setErrorMessage] = useState('');
+  const { name, email, message } = formState;
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!errorMessage) {
+      console.log('Submit Form', formState);
+      send(
+        'service_z2p07tb',
+        'template_d3iv8af',
+        formState,
+        'i7vm2lppllYRQ7bxW'
+      )
+        .then((response) => {
+          console.log('SUCCESS!', response.status, response.text);
+
+        })
+        .catch((err) => {
+          console.log('FAILED...', err);
+        });
+    }
+    setFormState({ ...formState, name: '', email: '', message: '' })
+    e.target.reset();
+  };
+
+  const handleChange = (e) => {
+    if (e.target.name === 'email') {
+      const isValid = validateEmail(e.target.value);
+      if (!isValid) {
+        setErrorMessage('Your email is invalid.');
+      } else {
+        setErrorMessage('');
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required.`);
+      } else {
+        setErrorMessage('');
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+      console.log('Handle Form', formState);
+    }
+  };
+
     return (
       <div>
         <h1>Contact</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+        <div className="container">
+        <form id="contact-form" onSubmit={handleSubmit}>
+        <div className="form-name">
+          <label htmlFor="name">Name:</label>
+          <input type="text" placeholder="Name" defaultValue={name} name="name" onBlur={handleChange} />
+        </div>
+        <div className="form-email">
+          <label htmlFor="email">Email address:</label>
+          <input type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
+        </div>
+        <div className="form-message">
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" placeholder="Your Message" rows="5" defaultValue={message} onBlur={handleChange} />
+        </div>
+        {errorMessage && (
+          <div className="form-error">
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+        <div className="form-button">
+        <button data-testid="button" type="submit">Submit</button>
+        </div>
+      </form>
+      </div>
       </div>
     );
   }

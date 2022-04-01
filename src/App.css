@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -52,6 +52,25 @@ a.skip-main:focus, a.skip-main:active {
 
 .App-link {
   color: #61dafb;
+}
+
+.form-name {
+  padding: 10px 0px;
+}
+
+
+.form-email {
+  padding: 10px 0px;
+}
+
+
+.form-message {
+  padding: 10px 0px;
+}
+
+
+.form-button {
+  padding: 10px 0px;
 }
 
 footer {
