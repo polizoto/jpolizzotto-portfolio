@@ -1,165 +1,82 @@
 
 .projects {
-    margin: 2.5% 0% 0% 2%;
-    color: var(--secondary-color);
-    font-size: 18px;
-    line-height: 1.;
-    background-color: var(--primary-color);
-    width: 1420px;
     display: flex;
-    flex-wrap: wrap; 
+    flex-direction: row;
 }
 
-.large-project {
-    margin: 0px 0px 40px 0px;
-    color: var(--secondary-color);
-    font-size: 38px;
-    line-height: 1.;
-    padding: 500px 20px 0px 0px;
+.small-projects {
     width: 100%;
-    border-style: solid;
-    border-width: 3px;
-    border-color: var(--tertiary-color);
-    display: flex;
-    /* background-image: url("../images/Circuit.svg"); */
-    background-size: cover;
-    background-position: 80%;
-}
-
-.large-project a h3 {
-    margin: 0px 5px 20px 0px;
-    color: var(--secondary-color);
-    font-size: 38px;
-    line-height: 1.;
-    background-color: var(--primary-color);
-    padding: 20px;
-    width: 100%;
-    border-style: solid solid solid none;
-    border-width: 3px;
-    border-color: var(--tertiary-color);
-    display: flex;
-}
-
-.large-project a {
-    text-decoration: none;
-}
-
-.large-project a:visited {
-    text-decoration: none;
-}
-
-.large-project a:focus {
-    outline: 0;
-    border: none;
-}
-
-
-.large-project a:focus > h3 {
-    border-radius: 15px;
-    text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
-}
-
-.large-project a:hover > h3 {
-    border-radius: 15px;
-    text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
-}
-
-#aim:hover {
-    filter: brightness(150%);
-}
-
-.small-project {
-    line-height: 1.;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;  
-    column-gap: 2%;
-    row-gap: 30px;
-}
-
-.small-project a {
-    text-decoration: none;
-}
-
-.small-project a:visited {
-    text-decoration: none;
+    justify-content: space-between;
 }
 
 .project {
-    
-    color: var(--secondary-color);
-    font-size: 38px;
-    line-height: 1.;
-    background-color: var(--primary-color);
-    padding: 300px 10px 0px 0px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: var(--tertiary-color);
+    margin: 20px;
+    min-height: 370px;
+    width: 42%;
+    /* display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; */
+}
+
+.img__description {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(255,255,255,0.5);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 49%;
-}
+    justify-content: space-between;
+    align-items: flex-start;
+    /* transition: opacity .2s, visibility .2s; */
+  }
 
-
-
-#bash {
-    /* background-image: url("../images/Circuit-2.svg"); */
-}
-
-#bash:hover {
-    filter: brightness(150%);
-}
-
-#html {
-    /* background-image: url("../images/Patterns.svg"); */
-}
-
-#html:hover {
-    filter: brightness(150%);
-}
-
-#java {
-    /* background-image: url("../images/Curve.svg"); */
-}
-
-#java:hover {
-    filter: brightness(150%);
-}
-
-.project a h3 {
-    margin: 0px 5px 20px 0px;
-    color: var(--secondary-color);
-    font-size: 38px;
-    line-height: 1.;
-    background-color: var(--primary-color);
-    padding: 20px;
-    width: 100%;
-    border-style: solid solid solid none;
-    border-width: 3px;
-    border-color: var(--tertiary-color);
-    display: flex;
-}
-
-.project a:focus {
-    outline: 0;
-    border: none;
-}
-
-
-.project a:focus > h3 {
+  .project a h3 {
+    background-color: #343a40;
+    color: white;
+    background-size: auto;
+    padding: 10px;
     border-radius: 15px;
-    text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
+    display: inline-block;
+        /* display: flex;  */
+
 }
 
-.project a:hover > h3 {
+.project a #icon {
+    background-color: #343a40;
+    color: white;
+    /* background-size: auto; */
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
     border-radius: 15px;
-    text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
+    display: inline-block;
+    line-height: 5;
 }
+
+  .project:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .project:focus .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+
+    /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+    @media screen and (max-width: 575px) {
+
+        .project {
+            width: 100%;
+        }
+
+          }
+    

@@ -113,10 +113,14 @@ footer p a:focus     {
 
 #accessibility {
   background-image: url("./assets/alley.png");
+  background-size: cover;
+
 }
 
 #accessibility:hover {
-  filter: brightness(150%);
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes App-logo-spin {
