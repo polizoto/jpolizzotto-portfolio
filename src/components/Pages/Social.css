@@ -2,3 +2,36 @@ a {
   color: white;
   padding: 0px 10px;  
 }
+
+nav ul a:hover {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+}
+
+nav ul a:focus     {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+  outline: 0;
+  /* border: none; */
+}
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+.header h2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+  }

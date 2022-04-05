@@ -19,7 +19,6 @@ nav ul {
 nav ul li a {
     padding: 10px 25px;
     font-size: 28px;
-    color: var(--secondary-color);
     font-weight: bold;
     text-align: center;
 }
@@ -27,15 +26,41 @@ nav ul li a {
 nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
+    background-color: white;
+    color: #343a40;
 }
 
 nav ul li a:focus     {
     border-radius: 15px;
     text-shadow: none;
-    background-color: var(--secondary-color);
-    color: var(--tertiary-color);
+    background-color: white;
+    color: #343a40;
     outline: 0;
-    border: none;
+    /* border: none; */
 }
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 750px) {
+
+    header nav ul a {
+    padding: 0px 14px
+    }
+  }
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    
+    header nav ul li {
+        margin: 15px 0px 15px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        border-bottom: none;
+    }
+
+    header nav ul a {
+    padding: 0px 14px
+    }
+
+  }

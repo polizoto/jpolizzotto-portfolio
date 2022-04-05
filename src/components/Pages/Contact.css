@@ -13,3 +13,18 @@
     width: 100%;
     clear: both;
   }
+
+
+
+      /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+      @media screen and (max-width: 750px) {
+        .container {
+          width: 100%
+        }
+        .container input {
+          width: 98%;
+        }
+        .container textarea {
+          width: 98%;
+        }
+          }

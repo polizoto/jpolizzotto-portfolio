@@ -18,6 +18,16 @@ h1 {
   font-family: Monaco;
 }
 
+.Hero {
+  text-align: center;
+}
+
+.Hero img {
+  border-radius: 50%;
+  border-color: white;
+  border: solid;
+}
+
 a.skip-main {
   position: absolute;
   left: -999px;
@@ -31,12 +41,16 @@ a.skip-main:focus, a.skip-main:active {
   width: auto;
   position: static;
   margin: auto;
+  background-color: white;
+  color: #343a40;
+  outline: 0;
+  border-radius: 15px;
+  padding: 0px 10px;  
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-
 }
 
 .App-header {
@@ -81,6 +95,22 @@ footer {
   border-top: 1px solid #f4f4f4;
 }
 
+footer p a:hover {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+}
+
+footer p a:focus     {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+  outline: 0;
+  /* border: none; */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -89,3 +119,20 @@ footer {
     transform: rotate(360deg);
   }
 }
+
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    h1 {
+      display: flex;
+      justify-content: center;
+    }
+    .header {
+      display: block;
+      width: 100%;
+    }
+    .form-button button {
+      text-align: center;
+      padding: 10px 0px;
+      width: 100%;
+    }
+      }
