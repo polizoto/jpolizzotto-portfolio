@@ -111,13 +111,73 @@ footer p a:focus     {
   /* border: none; */
 }
 
-#accessibility {
+#group-project2 {
   background-image: url("./assets/alley.png");
   background-size: cover;
 
 }
 
-#accessibility:hover {
+#group-project2:hover {
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#techscoop {
+  background-image: url("./assets/scoop.png");
+  background-size: cover;
+
+}
+
+#techscoop:hover {
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#bash_script {
+  background-image: url("./assets/script.png");
+  background-size: cover;
+
+}
+
+#bash_script:hover {
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#manager-express {
+  background-image: url("./assets/employee.png");
+  background-size: cover;
+
+}
+
+#manager-express:hover {
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#cash-flow {
+  background-image: url("./assets/cash.png");
+  background-size: cover;
+
+}
+
+#cash-flow:hover {
+  filter: brightness(100%);
+  display: flex;
+  justify-content: space-between;
+}
+
+#author {
+  background-image: url("./assets/book2.png");
+  background-size: cover;
+
+}
+
+#author:hover {
   filter: brightness(100%);
   display: flex;
   justify-content: space-between;

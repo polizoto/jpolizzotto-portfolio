@@ -49,7 +49,7 @@
 
 }
 
-.project a #icon {
+.project a .icon {
     background-color: #343a40;
     color: white;
     /* background-size: auto; */
@@ -60,17 +60,29 @@
     line-height: 5;
 }
 
-  .project:hover .img__description {
-    visibility: visible;
-    opacity: 1;
-  }
+.project:hover > .img__description {
+  visibility: visible;
+  opacity: 1;
+}
 
-  .project:focus .img__description {
-    visibility: visible;
-    opacity: 1;
-  }
+.img__description h3:hover {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+}
 
+.project a .icon:hover {
+  background-color: white;
+  color: #343a40;
+}
 
+/* Need to develop way to bind focus and hover for accessibility purposes */
+/* .project:focus > .img__description {
+  visibility: visible;
+  opacity: 1;
+} */
+  
     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
     @media screen and (max-width: 575px) {
 
