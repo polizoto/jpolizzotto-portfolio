@@ -113,6 +113,7 @@ footer p a:focus     {
 
 #group-project2 {
   background-image: url("./assets/alley.png");
+  border-radius: 15px;
   background-size: cover;
 
 }
@@ -125,6 +126,7 @@ footer p a:focus     {
 
 #techscoop {
   background-image: url("./assets/scoop.png");
+  border-radius: 15px;
   background-size: cover;
 
 }
@@ -137,6 +139,7 @@ footer p a:focus     {
 
 #bash_script {
   background-image: url("./assets/script.png");
+  border-radius: 15px;
   background-size: cover;
 
 }
@@ -149,6 +152,7 @@ footer p a:focus     {
 
 #manager-express {
   background-image: url("./assets/employee.png");
+  border-radius: 15px;
   background-size: cover;
 
 }
@@ -161,6 +165,7 @@ footer p a:focus     {
 
 #cash-flow {
   background-image: url("./assets/cash.png");
+  border-radius: 15px;
   background-size: cover;
 
 }
@@ -173,6 +178,7 @@ footer p a:focus     {
 
 #author {
   background-image: url("./assets/book2.png");
+  border-radius: 15px;
   background-size: cover;
 
 }

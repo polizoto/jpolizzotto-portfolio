@@ -23,6 +23,7 @@
 
 .img__description {
     position: absolute;
+    border-radius: 15px;
     top: 0;
     bottom: 0;
     left: 0;
