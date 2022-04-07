@@ -31,7 +31,7 @@
     background:rgba(255,255,255,0.5);
     color: #fff;
     visibility: hidden;
-    opacity: 0;
+  opacity: 0; 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -78,11 +78,15 @@
   color: #343a40;
 }
 
-/* Need to develop way to bind focus and hover for accessibility purposes */
-/* .project:focus > .img__description {
-  visibility: visible;
-  opacity: 1;
-} */
+      /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+      @media screen and (max-width: 900px) {
+        .img__description {
+          display: flex;
+          flex-wrap:nowrap;
+          align-items:center;
+        }
+          }
+
   
     /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
     @media screen and (max-width: 575px) {
@@ -90,6 +94,5 @@
         .project {
             width: 100%;
         }
-
-          }
+    }
     
