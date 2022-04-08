@@ -66,15 +66,15 @@ export default function Contact() {
         <form id="contact-form" onSubmit={handleSubmit}>
         <div className="form-name">
           <label htmlFor="name">Name:</label>
-          <input type="text" placeholder="Name" defaultValue={name} name="name" onBlur={handleChange} />
+          <input id="name" type="text" placeholder="Name" defaultValue={name} name="name" onBlur={handleChange} />
         </div>
         <div className="form-email">
           <label htmlFor="email">Email address:</label>
-          <input type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
+          <input id="email" type="email" placeholder="Email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
         <div className="form-message">
           <label htmlFor="message">Message:</label>
-          <textarea name="message" placeholder="Your Message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea id="message" name="message" placeholder="Your Message" rows="5" defaultValue={message} onBlur={handleChange} />
         </div>
         {errorMessage && (
           <div className="form-error">
