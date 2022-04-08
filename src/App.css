@@ -52,7 +52,14 @@ a.skip-main:focus, a.skip-main:active {
 
 a.resume {
   padding: 5px;
+  display: flex;
+  justify-content: center;
 }
+
+span.resume-title{
+  text-align:center
+}
+
 
 a.resume:hover {
   border-radius: 15px;
@@ -261,5 +268,9 @@ footer p a:focus     {
 
     footer {
       text-align: center;
+    }
+
+    .resume {
+      align-items: center;
     }
       }

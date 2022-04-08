@@ -15,7 +15,7 @@ export default class Resume extends Component {
   return (
   <div>
   <h1>Resume</h1>
-  <DownloadLink src={resume}>Download Resume as a PDF</DownloadLink>
+  <DownloadLink src={resume}><span className="resume-title">Download Resume as a PDF</span></DownloadLink>
   <h2 id="profile">PROFILE</h2>
   <p>Highly qualified <strong>Access Technology Professional</strong> with
   17 years of post-secondary teaching experience. Known for leadership

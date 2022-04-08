@@ -4,7 +4,7 @@ function Nav({ currentPage, handlePageChange }) {
     return (
       <nav className="app-navigation">
       <ul className="nav nav-tabs">
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <a
             href="#home"
             onClick={() => handlePageChange('Home')}
@@ -13,7 +13,7 @@ function Nav({ currentPage, handlePageChange }) {
           >
             Home
           </a>
-        </li>
+        </li> */}
         <li className="nav-item">
           <a
             href="#about"

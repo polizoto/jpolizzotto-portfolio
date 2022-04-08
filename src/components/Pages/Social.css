@@ -8,6 +8,7 @@ nav ul a:hover {
   text-shadow: none;
   background-color: white;
   color: #343a40;
+  border:1px solid red;
 }
 
 nav ul a:focus     {

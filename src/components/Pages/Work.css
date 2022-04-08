@@ -72,16 +72,23 @@
   opacity: 1;
 }
 
+.project:focus-within > .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .img__description h3:hover {
   border-radius: 15px;
   text-shadow: none;
   background-color: white;
   color: #343a40;
+  border:1px solid red;
 }
 
 .project a .icon:hover {
   background-color: white;
   color: #343a40;
+  border:1px solid red;
 }
 
 .project a:focus > h3 {
@@ -89,6 +96,7 @@
   outline: none;
   background-color: white;
   color: #343a40;
+  border:1px solid red;
 }
 
 .project a:focus > .icon {
@@ -96,6 +104,19 @@
   outline: none;
   background-color: white;
   color: #343a40;
+  border:1px solid red;
+}
+
+.app-info:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.GitHub-info:focus {
+  box-shadow: none;
+  outline: none;
+  border: none;
 }
 
 .project:focus {
