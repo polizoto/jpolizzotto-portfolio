@@ -1,4 +1,5 @@
-import profile from '../../assets/profile.jpg'
+
+import profile from '../../assets/polizzotto.jpg'
 
 export default function Home() {
     return (

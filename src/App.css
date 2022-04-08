@@ -24,6 +24,8 @@ h1 {
 
 .Hero img {
   border-radius: 50%;
+  width: 288px;
+  height: 288px;
   border-color: white;
   border: solid;
 }
@@ -46,6 +48,49 @@ a.skip-main:focus, a.skip-main:active {
   outline: 0;
   border-radius: 15px;
   padding: 10px 10px;  
+}
+
+a.resume {
+  padding: 5px;
+}
+
+a.resume:hover {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+}
+
+a.resume:focus     {
+  border-radius: 15px;
+  text-shadow: none;
+  background-color: white;
+  color: #343a40;
+  outline: 0;
+  /* border: none; */
+}
+
+a:focus {
+  border:1px solid red;
+}
+
+input:focus {
+  outline:none;
+  border:1px solid red;
+}
+
+textarea:focus {
+  outline:none;
+  border:1px solid red;
+}
+
+.textarea:focus {
+  border: 1px solid red;
+}
+
+button:focus {
+  outline:none;
+  border: 1px solid red;
 }
 
 .header {

@@ -1,6 +1,10 @@
 import './Work.css';
+import React, { Component }  from 'react';
 import { Icon } from '@iconify/react';
-export default function Work() {
+
+export default class Work extends Component {
+
+      render() {
     return (
       <div>
         <h1>Work</h1>
@@ -8,7 +12,7 @@ export default function Work() {
             <div className="small-projects">
             <div id="group-project2" tabIndex="0" className="project">
                 <div className="img__description">
-                <a className="" aria-label="Full Stack Application - Tech Blog" href="https://fast-woodland-63027.herokuapp.com/"rel="noreferrer" target="_blank"><h3>Alley 26 Cocktail Reference</h3></a>
+                <a className="" tabIndex="0" aria-label="Full Stack Application - Tech Blog" href="https://fast-woodland-63027.herokuapp.com/"rel="noreferrer" target="_blank"><h3>Alley 26 Cocktail Reference</h3></a>
                 <a href="https://github.com/polizoto/Prost_4.0" title="GitHub" rel="noreferrer" target="_blank">
                 <Icon className="icon" icon="akar-icons:github-outline-fill" height="40" /></a>
                 </div>
@@ -54,4 +58,6 @@ export default function Work() {
       
     );
   }
+}
+
   
