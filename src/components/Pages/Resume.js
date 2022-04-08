@@ -82,59 +82,59 @@ export default class Resume extends Component {
   Tech Center Access Specialist, Learning Skills Associate Professor </h3>
   <p><em>Taft College, Taft CA</em> August 2012- March 2016</p>
   <ul>
-  <li><blockquote>
+  <li>
   <p>Responsible for alternate media production and assistive technology
   training for 300 students</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Identify preferences and needs for alternate and assistive technology
   for individuals with disabilities, using student documentation, staff
   conferences, and intake appointments</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Built and maintained alternate media database</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Tailor individual and group sessions on Dragon Naturally Speaking
   speech recognition, LiveScribe pens, Kurzweil 3000, JAWS, ZoomText
   Magnification, and other assistive technologies</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Oversee installation and configuration of accessible technology
   across campus</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Manage team of accommodation specialists who will train students on
   assistive technology</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Train team on how to produce DAISY, e-Text, tactiles, large print,
   accessible PDFs, EPUB</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Address needs and concerns of faculty regarding disability law,
   universal design, and accommodations for students with disabilities</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Design and maintain High Tech Center website as a technology resource
   for faculty and students</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Research emerging technologies and develop strategies for
   implementation on campus</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Produce tutorials, newsletters, curriculum, and presentation on
   access technologies for campus</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Hire and schedule CART services and ASL interpreters for Deaf
   population at college</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Develop and deliver curriculum for students preparing for High School
   Equivalency exam</p>
-  </blockquote></li>
+  </li>
   </ul>
   <h3 id="esl-teaching">ESL Teaching</h3>
   <p>ESL Associate Professor</p>
