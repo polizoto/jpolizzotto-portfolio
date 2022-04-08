@@ -7,7 +7,9 @@ This is the professional web portfolio for Joseph Polizzotto, accessibility tech
 - React
     - conditional rendering
     - maange state (parent and child components)
-- GitHub Page Deployment
+    - form validation
+- Email JS
+- GitHub Pages Deployment
 
 ## Deployed Portfolio
 
