@@ -191,6 +191,7 @@ export default class Resume extends Component {
   <p><em>University of California, Santa Cruz CA -</em> June 2000</p>
   <p><em>Università degli studi di Padova, Italy—</em>Education Abroad
   Program - June 1998- June 1999</p>
+  <h2 id="certification">CERTIFICATION</h2>
   <p><em>UNC Chapel Hill Coding Bootcamp –</em> November 2021 – April 2022</p>
   <h2 id="awards">AWARDS </h2>
   <ul>
