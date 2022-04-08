@@ -283,11 +283,11 @@ export default class Resume extends Component {
   CAPED 2015. “Assistive Technology and the English Classroom”.
   B<em>uilding Bridges 2013 Conference</em>.</p>
   <h2 id="committee-involvement">COMMITTEE INVOLVEMENT </h2>
-  <p>UC Berkeley</p>
+  <p><strong>UC Berkeley</strong></p>
   <ul>
   <li>Ally in Canvas Pilot (2018-2019)</li>
   </ul>
-  <p>Taft College</p>
+  <p><strong>Taft College</strong></p>
   <ul>
   <li>Taft Disabilities Partnership Team (2013-2016)</li>
   <li>Public Information Committee (2013-2016)</li>
@@ -301,34 +301,34 @@ export default class Resume extends Component {
   </ul>
   <p><strong>PROFESSIONAL AFFILIATIONS</strong></p>
   <ul>
-  <li><blockquote>
+  <li>
   <p>EPUB for Higher Education− DAISY Consortium (2016− Present)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>EPUB Reading Systems Group− DAISY Consortium (2016− Present)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Access Technology Higher Education Network (ATHEN) (2015-Present)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Association of Higher Education And Disability (AHEAD)
   (2014-Present)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>California Post-secondary Education and Disability (CAPED)
   (2013-2018)</p>
-  </blockquote>
+  
   </li>
   <li>Co-Chair of Access Technology Interest Group (2014-2016)</li>
-  <li><blockquote>
+  <li>
   <p>Teach Access Member (2016− 2018)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>High Tech Center Training Unit Advisory Board Member (2013-2018)</p>
-  </blockquote></li>
-  <li><blockquote>
+  </li>
+  <li>
   <p>Kurzweil Education Customer Advisory Board Member (2015-2018)</p>
-  </blockquote></li>
+  </li>
   </ul>
   <h2 id="technical-skills">TECHNICAL SKILLS</h2>
   <ul>
