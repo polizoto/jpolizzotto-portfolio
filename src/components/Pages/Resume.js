@@ -26,56 +26,56 @@ export default class Resume extends Component {
   <p><em>Wake Technical Community College, Raleigh NC</em> July 2021 -
   Present</p>
   <ul>
-  <li><p>Deliver professional development courses on
-  accessibility</p></li>
-  <li><p>Review academic content for accessibility</p></li>
+  <li>Deliver professional development courses on
+  accessibility</li>
+  <li>Review academic content for accessibility</li>
   </ul>
   <h3 id="alternative-media-supervisor">Alternative Media Supervisor</h3>
   <p><em>University of California (UC) Berkeley, Berkeley CA</em> July
   2018 – July 2021</p>
   <ul>
-  <li><p>Supervise eight full-time alternative media specialists</p></li>
-  <li><p>Oversee the production of alternative formats (braille, audio,
+  <li>Supervise eight full-time alternative media specialists</li>
+  <li>Oversee the production of alternative formats (braille, audio,
   large-print, E-Text) for over 100 qualifying students each
-  semester</p></li>
-  <li><p>Liaise with faculty and staff regarding ADA obligations and
-  standards</p></li>
-  <li><p>Develop and maintain accessibility standards and best practices
+  semester</li>
+  <li>Liaise with faculty and staff regarding ADA obligations and
+  standards</li>
+  <li>Develop and maintain accessibility standards and best practices
   in the production of alternative formats (HTML, EPUB, PDF, Large Print,
-  Tactile, MP3, MS Word, braille).</p></li>
-  <li><p>Maintain and update Alternative Media website</p></li>
-  <li><p>Train students how to use assistive technologies (Kurzweil 3000,
-  JAWS, ZoomText, NVDA, EPUB Reading Systems)</p></li>
+  Tactile, MP3, MS Word, braille).</li>
+  <li>Maintain and update Alternative Media website</li>
+  <li>Train students how to use assistive technologies (Kurzweil 3000,
+  JAWS, ZoomText, NVDA, EPUB Reading Systems)</li>
   </ul>
   <h3 id="access-technology-specialist-instructor">Access Technology
   Specialist Instructor </h3>
   <p><em>High Tech Center Training Unit (HTCTU), Cupertino CA</em> March
   2016 – June 2018</p>
   <ul>
-  <li><p>Develop all−day trainings on assistive technology and alternate
+  <li>Develop all−day trainings on assistive technology and alternate
   media at the HTCTU for staff in the 114 Disability Services departments
-  of the California Community Colleges:</p></li>
-  <li><p>Write manuals and guides outlining the best practices of how to
+  of the California Community Colleges:</li>
+  <li>Write manuals and guides outlining the best practices of how to
   create alternate media and train students with disabilities on assistive
-  technology</p></li>
-  <li><p>Outline basic computer specifications needed for alt media or AT
-  workstations</p></li>
-  <li><p>Train California Community Chancellor’s Office employees on
-  assistive technology</p></li>
-  <li><p>Respond to queries and issues from colleagues in the field via
-  the HTCTU listservs and by phone</p></li>
-  <li><p>Assist Community College faculty with how to create accessible
-  documents</p></li>
-  <li><p>Report on emerging trends and technologies to the HTCTU Advisory
-  Board</p></li>
-  <li><p>Evaluate websites, documents, and applications for adherence to
+  technology</li>
+  <li>Outline basic computer specifications needed for alt media or AT
+  workstations</li>
+  <li>Train California Community Chancellor’s Office employees on
+  assistive technology</li>
+  <li>Respond to queries and issues from colleagues in the field via
+  the HTCTU listservs and by phone</li>
+  <li>Assist Community College faculty with how to create accessible
+  documents</li>
+  <li>Report on emerging trends and technologies to the HTCTU Advisory
+  Board</li>
+  <li>Evaluate websites, documents, and applications for adherence to
   accessibility standards (WCAG 2.0 AA) by using a combination of
-  automatic checkers and assistive technology</p></li>
-  <li><p>Attend and present at national conferences on disability and
-  access technology</p></li>
-  <li><p>Provide insights on Higher Ed market to assistive technology
+  automatic checkers and assistive technology</li>
+  <li>Attend and present at national conferences on disability and
+  access technology</li>
+  <li>Provide insights on Higher Ed market to assistive technology
   vendors, such as Kurzweil Education, Text Help, Sonocent, Humanware,
-  Orcam, MatchWare</p></li>
+  Orcam, MatchWare</li>
   </ul>
   <h3
   id="high-tech-center-access-specialist-learning-skills-associate-professor">High
@@ -140,48 +140,48 @@ export default class Resume extends Component {
   <p>ESL Associate Professor</p>
   <p><em>Taft College, Taft CA</em> January 2011- August 2012</p>
   <ul>
-  <li><p>Recorded and edited informational video about ESL program for
-  recruitment purposes</p></li>
+  <li>Recorded and edited informational video about ESL program for
+  recruitment purposes</li>
   </ul>
   <p><strong>ESL Instructor</strong></p>
   <p><em>Foothill College, Los Altos Hills, CA</em> March 2008-December
   2010</p>
   <ul>
-  <li><p>Developed and delivered curriculum for advanced ESL learners in
-  Silicon Valley</p></li>
+  <li>Developed and delivered curriculum for advanced ESL learners in
+  Silicon Valley</li>
   </ul>
   <p><strong>ESL Instructor</strong></p>
   <p><em>Evergreen Valley College, San Jose CA</em> Sep. 2007-December
   2010</p>
   <ul>
-  <li><p>Created engaging, technology-based pronunciation exercises for
-  Vietnamese ESL students</p></li>
+  <li>Created engaging, technology-based pronunciation exercises for
+  Vietnamese ESL students</li>
   </ul>
   <p><strong>ESL Instructor</strong></p>
   <p><em>Cañada College, Redwood City CA</em> Sep. 2005- December 2010</p>
   <ul>
-  <li><p>Designed and delivered intensive ESL classes for urban Redwood
-  City communities</p></li>
+  <li>Designed and delivered intensive ESL classes for urban Redwood
+  City communities</li>
   </ul>
   <p><strong>ESL Instructor</strong></p>
   <p><em>Gavilan College, Gilroy CA</em> June 2005-December 2010</p>
   <ul>
-  <li><p>Devised and implemented learning styles test for ESL
-  learners</p></li>
+  <li>Devised and implemented learning styles test for ESL
+  learners</li>
   </ul>
   <p><strong>Academic English Instructor</strong></p>
   <p><em>San Jose State University San Jose, CA</em> September 2005-May
   2005</p>
   <ul>
-  <li><p>Prepared academic English lessons for incoming freshmen and
-  trained academic English tutors</p></li>
+  <li>Prepared academic English lessons for incoming freshmen and
+  trained academic English tutors</li>
   </ul>
   <p><strong>ESL Instructor</strong></p>
   <p><em>Metropolitan Adult Education, Campbell CA</em> September
   2000-August 2004</p>
   <ul>
-  <li><p>Designed Vocational ESL and EL Civics curriculum for over a dozen
-  different language groups</p></li>
+  <li>Designed Vocational ESL and EL Civics curriculum for over a dozen
+  different language groups</li>
   </ul>
   <h2 id="education">EDUCATION</h2>
   <p><strong>Master of Arts (Teaching English to Speakers of Other
@@ -191,11 +191,12 @@ export default class Resume extends Component {
   <p><em>University of California, Santa Cruz CA -</em> June 2000</p>
   <p><em>Università degli studi di Padova, Italy—</em>Education Abroad
   Program - June 1998- June 1999</p>
+  <p><em>UNC Chapel Hill Coding Bootcamp –</em> November 2021 – April 2022</p>
   <h2 id="awards">AWARDS </h2>
   <ul>
-  <li><p>SPOT Award – UC Berkeley (2022)</p></li>
-  <li><p>CAPED Vice President of CIGs Award (October 2015)</p></li>
-  <li><p>Taft College Celebration of Success Award (May 2015)</p></li>
+  <li>SPOT Award – UC Berkeley (2022)</li>
+  <li>CAPED Vice President of CIGs Award (October 2015)</li>
+  <li>Taft College Celebration of Success Award (May 2015)</li>
   </ul>
   <h2 id="presentations">PRESENTATIONS</h2>
   <p>"STEM Materials Remediation”, a presentation to the North Carolina
@@ -283,15 +284,15 @@ export default class Resume extends Component {
   <h2 id="committee-involvement">COMMITTEE INVOLVEMENT </h2>
   <p>UC Berkeley</p>
   <ul>
-  <li><p>Ally in Canvas Pilot (2018-2019)</p></li>
+  <li>Ally in Canvas Pilot (2018-2019)</li>
   </ul>
   <p>Taft College</p>
   <ul>
-  <li><p>Taft Disabilities Partnership Team (2013-2016)</p></li>
-  <li><p>Public Information Committee (2013-2016)</p></li>
-  <li><p>Academic Senate (2011-2016)</p></li>
-  <li><p>Academic Development Committee (2011-2013)</p></li>
-  <li><p>Professional Development Committee (2011-2013)</p></li>
+  <li>Taft Disabilities Partnership Team (2013-2016)</li>
+  <li>Public Information Committee (2013-2016)</li>
+  <li>Academic Senate (2011-2016)</li>
+  <li>Academic Development Committee (2011-2013)</li>
+  <li>Professional Development Committee (2011-2013)</li>
   </ul>
   <p><strong>Gavilan College</strong></p>
   <p>• Learning Council (2009-2011)</p>
@@ -315,7 +316,7 @@ export default class Resume extends Component {
   (2013-2018)</p>
   </blockquote>
   <ul>
-  <li><p>Co-Chair of Access Technology Interest Group (2014-2016)</p></li>
+  <li>Co-Chair of Access Technology Interest Group (2014-2016)</li>
   </ul></li>
   <li><blockquote>
   <p>Teach Access Member (2016− 2018)</p>
@@ -329,16 +330,19 @@ export default class Resume extends Component {
   </ul>
   <h2 id="technical-skills">TECHNICAL SKILLS</h2>
   <ul>
-  <li><p>HTML</p></li>
-  <li><p>CSS</p></li>
-  <li><p>JavaScript</p></li>
-  <li><p>Express.js</p></li>
-  <li><p>Sequelize</p></li>
-  <li><p>MongoDB</p></li>
-  <li><p>Bash</p></li>
-  <li><p>Microsoft Office Suite</p></li>
-  <li><p>Adobe Creative Cloud Suite</p></li>
-  <li><p>Optical Character Recognition Tools</p></li>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>React</li>
+  <li>Express</li>
+  <li>REST API Testing and Development</li>
+  <li>GitHub</li>
+  <li>MySQL, Sequelize</li>
+  <li>MongoDB</li>
+  <li>Bash</li>
+  <li>Microsoft Office Suite</li>
+  <li>Adobe Creative Cloud Suite</li>
+  <li>Optical Character Recognition Tools</li>
   </ul>
   </div>
 

@@ -11,6 +11,10 @@ This is the professional web portfolio for Joseph Polizzotto, accessibility tech
 - Email JS
 - GitHub Pages Deployment
 
+## Screenshot
+
+![screenshot of Joseph Polizzotto's Portfolio](/screenshot.png)
+
 ## Deployed Portfolio
 
 [Portfolio Site](https://polizoto.github.io/jpolizzotto-portfolio/)
