@@ -5,8 +5,11 @@ This is the professional web portfolio for Joseph Polizzotto, accessibility tech
 ## Technologies Used
 
 - React
+    - conditional rendering
+    - maange state (parent and child components)
+- GitHub Page Deployment
 
 ## Deployed Portfolio
 
-[Portfolio Site]()
+[Portfolio Site](https://polizoto.github.io/jpolizzotto-portfolio/)
 
