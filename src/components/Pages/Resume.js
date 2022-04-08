@@ -296,7 +296,9 @@ export default class Resume extends Component {
   <li>Professional Development Committee (2011-2013)</li>
   </ul>
   <p><strong>Gavilan College</strong></p>
-  <p>• Learning Council (2009-2011)</p>
+  <ul>
+  <li>Learning Council (2009-2011)</li>
+  </ul>
   <p><strong>PROFESSIONAL AFFILIATIONS</strong></p>
   <ul>
   <li><blockquote>
@@ -316,9 +318,8 @@ export default class Resume extends Component {
   <p>California Post-secondary Education and Disability (CAPED)
   (2013-2018)</p>
   </blockquote>
-  <ul>
+  </li>
   <li>Co-Chair of Access Technology Interest Group (2014-2016)</li>
-  </ul></li>
   <li><blockquote>
   <p>Teach Access Member (2016− 2018)</p>
   </blockquote></li>
