@@ -218,7 +218,8 @@ export default class Resume extends Component {
   <p>"Do More with WordToEPUB", <em>DAISY Webinar,</em> 2020</p>
   <p>"WordToEPUB Extended Tutorial", <em>DAISY Webinar,</em> 2020</p>
   <p>"Create EPUB publications from Word with a simple tool anyone can
-  use", <em>DAISY Webinar,</em> 2020 "Writing and reading accessible math
+  use", <em>DAISY Webinar,</em> 2020</p> 
+  <p>"Writing and reading accessible math
   in Word, HTML and EPUB" <em>Accessing Higher Ground Conference
   2020</em>, (virtual)</p>
   <p>"Creating accessible OER and other materials by leveraging advanced
@@ -251,9 +252,10 @@ export default class Resume extends Component {
   <p>“Reaching the Higher Ed Market”. K<em>urzweil National Sales
   Meeting</em>, Tucson AZ.</p>
   <p>“Tools for Automating the Captioning of Video”. <em>Accessing Higher
-  Ground Conference</em>, Westminster CO “EPUB: Where We Are and Where We
-  Are Going”. <em>CAPED 2017 Pre− Conference</em>, Huntington Beach CA
-  “Using MathType to Make Textbooks Accessible”. <em>CAPED 2017
+  Ground Conference</em>, Westminster CO</p> 
+  <p>“EPUB: Where We Are and Where We
+  Are Going”. <em>CAPED 2017 Pre− Conference</em>, Huntington Beach CA</p>
+  <p>“Using MathType to Make Textbooks Accessible”. <em>CAPED 2017
   Conference</em>, Huntington Beach CA.</p>
   <p>“DIY Captioning Tools for Faculty”. <em>2017 Post− Secondary Training
   Institute</em>, Boston MA</p>
@@ -271,17 +273,19 @@ export default class Resume extends Component {
   <p>“MathML: An Overview of Creation and Usage”, <em>CAPED 2016
   Conference</em>, Monterey CA</p>
   <p>“Equal Access to Electronic &amp; Information Technology (E&amp;IT)”,
-  CAPED 2016 Preconference, Monterey CA “Technology for Reading, Note−
+  <em>CAPED 2016 Preconference</em>, Monterey CA </p>
+  <p>“Technology for Reading, Note−
   Taking, and Writing”. <em>Shasta College AT Workshops</em>, Redding CA
   2016</p>
-  <p>“Note− taking Accommodations: How Technology Can Help”. <em>2016 PTI
-  Conference</em>, Philadelphia PA “Closed Captioned Files Made Easier”.
+  <p>“Note−taking Accommodations: How Technology Can Help”. <em>2016 PTI
+  Conference</em>, Philadelphia PA</p> 
+  <p>“Closed Captioned Files Made Easier”.
   <em>2016 CSUN Conference,</em> San Diego CA</p>
   <p>“We Have an App for That!” Keynote at <em>Opening the College Door
   2015 Conference</em> in Porterville CA.</p>
   <p>“Overview of Cloud Services, E-readers, and Notetaking Solutions”.
   CAPED 2015. “Assistive Technology and the English Classroom”.
-  B<em>uilding Bridges 2013 Conference</em>.</p>
+  <em>Building Bridges 2013 Conference</em>.</p>
   <h2 id="committee-involvement">COMMITTEE INVOLVEMENT </h2>
   <p><strong>UC Berkeley</strong></p>
   <ul>
