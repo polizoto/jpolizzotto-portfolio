@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jpolizzotto-portfolio/static/css/main.090a78c7.css",
-    "main.js": "/jpolizzotto-portfolio/static/js/main.26c2ffb1.js",
+    "main.js": "/jpolizzotto-portfolio/static/js/main.46ae3817.js",
     "static/js/787.4a7deeb8.chunk.js": "/jpolizzotto-portfolio/static/js/787.4a7deeb8.chunk.js",
     "static/media/polizzotto.jpg": "/jpolizzotto-portfolio/static/media/polizzotto.13ec53c8e7f0f63f152a.jpg",
     "static/media/book2.png": "/jpolizzotto-portfolio/static/media/book2.92fc54e4cdb64462a111.png",
@@ -13,11 +13,11 @@
     "static/media/scoop.png": "/jpolizzotto-portfolio/static/media/scoop.8729e7120963c35c6da2.png",
     "index.html": "/jpolizzotto-portfolio/index.html",
     "main.090a78c7.css.map": "/jpolizzotto-portfolio/static/css/main.090a78c7.css.map",
-    "main.26c2ffb1.js.map": "/jpolizzotto-portfolio/static/js/main.26c2ffb1.js.map",
+    "main.46ae3817.js.map": "/jpolizzotto-portfolio/static/js/main.46ae3817.js.map",
     "787.4a7deeb8.chunk.js.map": "/jpolizzotto-portfolio/static/js/787.4a7deeb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.090a78c7.css",
-    "static/js/main.26c2ffb1.js"
+    "static/js/main.46ae3817.js"
   ]
 }
