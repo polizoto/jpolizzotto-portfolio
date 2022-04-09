@@ -137,7 +137,7 @@ export default class Resume extends Component {
   </li>
   </ul>
   <h3 id="esl-teaching">ESL Teaching</h3>
-  <p>ESL Associate Professor</p>
+  <p><strong>ESL Associate Professor</strong></p>
   <p><em>Taft College, Taft CA</em> January 2011- August 2012</p>
   <ul>
   <li>Recorded and edited informational video about ESL program for
@@ -284,7 +284,8 @@ export default class Resume extends Component {
   <p>“We Have an App for That!” Keynote at <em>Opening the College Door
   2015 Conference</em> in Porterville CA.</p>
   <p>“Overview of Cloud Services, E-readers, and Notetaking Solutions”.
-  CAPED 2015. “Assistive Technology and the English Classroom”.
+  <em>CAPED 2015</em>.</p>
+  <p>“Assistive Technology and the English Classroom”.
   <em>Building Bridges 2013 Conference</em>.</p>
   <h2 id="committee-involvement">COMMITTEE INVOLVEMENT </h2>
   <p><strong>UC Berkeley</strong></p>

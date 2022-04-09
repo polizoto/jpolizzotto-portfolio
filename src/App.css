@@ -66,6 +66,7 @@ a.resume:hover {
   text-shadow: none;
   background-color: white;
   color: #343a40;
+  border: 1px solid red;
 }
 
 a.resume:focus     {
