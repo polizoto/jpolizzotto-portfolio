@@ -83,57 +83,57 @@ export default class Resume extends Component {
   <p><em>Taft College, Taft CA</em> August 2012- March 2016</p>
   <ul>
   <li>
-  <p>Responsible for alternate media production and assistive technology
-  training for 300 students</p>
+  Responsible for alternate media production and assistive technology
+  training for 300 students
   </li>
   <li>
-  <p>Identify preferences and needs for alternate and assistive technology
+  Identify preferences and needs for alternate and assistive technology
   for individuals with disabilities, using student documentation, staff
-  conferences, and intake appointments</p>
+  conferences, and intake appointments
   </li>
   <li>
-  <p>Built and maintained alternate media database</p>
+  Built and maintained alternate media database
   </li>
   <li>
-  <p>Tailor individual and group sessions on Dragon Naturally Speaking
+  Tailor individual and group sessions on Dragon Naturally Speaking
   speech recognition, LiveScribe pens, Kurzweil 3000, JAWS, ZoomText
-  Magnification, and other assistive technologies</p>
+  Magnification, and other assistive technologies
   </li>
   <li>
-  <p>Oversee installation and configuration of accessible technology
-  across campus</p>
+  Oversee installation and configuration of accessible technology
+  across campus
   </li>
   <li>
-  <p>Manage team of accommodation specialists who will train students on
-  assistive technology</p>
+  Manage team of accommodation specialists who will train students on
+  assistive technology
   </li>
   <li>
-  <p>Train team on how to produce DAISY, e-Text, tactiles, large print,
-  accessible PDFs, EPUB</p>
+  Train team on how to produce DAISY, e-Text, tactiles, large print,
+  accessible PDFs, EPUB
   </li>
   <li>
-  <p>Address needs and concerns of faculty regarding disability law,
-  universal design, and accommodations for students with disabilities</p>
+  Address needs and concerns of faculty regarding disability law,
+  universal design, and accommodations for students with disabilities
   </li>
   <li>
-  <p>Design and maintain High Tech Center website as a technology resource
-  for faculty and students</p>
+  Design and maintain High Tech Center website as a technology resource
+  for faculty and students
   </li>
   <li>
-  <p>Research emerging technologies and develop strategies for
-  implementation on campus</p>
+  Research emerging technologies and develop strategies for
+  implementation on campus
   </li>
   <li>
-  <p>Produce tutorials, newsletters, curriculum, and presentation on
-  access technologies for campus</p>
+  Produce tutorials, newsletters, curriculum, and presentation on
+  access technologies for campus
   </li>
   <li>
-  <p>Hire and schedule CART services and ASL interpreters for Deaf
-  population at college</p>
+  Hire and schedule CART services and ASL interpreters for Deaf
+  population at college
   </li>
   <li>
-  <p>Develop and deliver curriculum for students preparing for High School
-  Equivalency exam</p>
+  Develop and deliver curriculum for students preparing for High School
+  Equivalency exam
   </li>
   </ul>
   <h3 id="esl-teaching">ESL Teaching</h3>
@@ -307,32 +307,32 @@ export default class Resume extends Component {
   <p><strong>PROFESSIONAL AFFILIATIONS</strong></p>
   <ul>
   <li>
-  <p>EPUB for Higher Education− DAISY Consortium (2016− Present)</p>
+  EPUB for Higher Education− DAISY Consortium (2016− Present)
   </li>
   <li>
-  <p>EPUB Reading Systems Group− DAISY Consortium (2016− Present)</p>
+  EPUB Reading Systems Group− DAISY Consortium (2016− Present)
   </li>
   <li>
-  <p>Access Technology Higher Education Network (ATHEN) (2015-Present)</p>
+  Access Technology Higher Education Network (ATHEN) (2015-Present)
   </li>
   <li>
-  <p>Association of Higher Education And Disability (AHEAD)
-  (2014-Present)</p>
+  Association of Higher Education And Disability (AHEAD)
+  (2014-Present)
   </li>
   <li>
-  <p>California Post-secondary Education and Disability (CAPED)
-  (2013-2018)</p>
+  California Post-secondary Education and Disability (CAPED)
+  (2013-2018)
   
   </li>
   <li>Co-Chair of Access Technology Interest Group (2014-2016)</li>
   <li>
-  <p>Teach Access Member (2016− 2018)</p>
+  Teach Access Member (2016− 2018)
   </li>
   <li>
-  <p>High Tech Center Training Unit Advisory Board Member (2013-2018)</p>
+  High Tech Center Training Unit Advisory Board Member (2013-2018)
   </li>
   <li>
-  <p>Kurzweil Education Customer Advisory Board Member (2015-2018)</p>
+  Kurzweil Education Customer Advisory Board Member (2015-2018)
   </li>
   </ul>
   <h2 id="technical-skills">TECHNICAL SKILLS</h2>
