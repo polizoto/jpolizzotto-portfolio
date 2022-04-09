@@ -304,7 +304,7 @@ export default class Resume extends Component {
   <ul>
   <li>Learning Council (2009-2011)</li>
   </ul>
-  <p><strong>PROFESSIONAL AFFILIATIONS</strong></p>
+  <h2 id="professional-affiliations">PROFESSIONAL AFFILIATIONS</h2>
   <ul>
   <li>
   EPUB for Higher Education− DAISY Consortium (2016− Present)
