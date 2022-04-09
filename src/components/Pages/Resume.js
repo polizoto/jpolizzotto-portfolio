@@ -195,7 +195,7 @@ export default class Resume extends Component {
   <p><em>UNC Chapel Hill Coding Bootcamp –</em> November 2021 – April 2022</p>
   <h2 id="awards">AWARDS </h2>
   <ul>
-  <li>SPOT Award – UC Berkeley (2022)</li>
+  <li>SPOT Award – UC Berkeley (2020)</li>
   <li>CAPED Vice President of CIGs Award (October 2015)</li>
   <li>Taft College Celebration of Success Award (May 2015)</li>
   </ul>
