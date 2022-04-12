@@ -177,14 +177,14 @@ footer p a:focus     {
   justify-content: space-between;
 }
 
-#techscoop {
-  background-image: url("./assets/scoop.png");
+#book-finder {
+  background-image: url("./assets/bookfinder.png");
   border-radius: 15px;
   background-size: cover;
 
 }
 
-#techscoop:hover {
+#book-finder:hover {
   filter: brightness(100%);
   display: flex;
   justify-content: space-between;
