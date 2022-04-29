@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/jpolizzotto-portfolio/static/css/main.17c9c39a.css",
-    "main.js": "/jpolizzotto-portfolio/static/js/main.e77be92d.js",
+    "main.css": "/jpolizzotto-portfolio/static/css/main.10b9a34d.css",
+    "main.js": "/jpolizzotto-portfolio/static/js/main.c87443a4.js",
     "static/js/787.4a7deeb8.chunk.js": "/jpolizzotto-portfolio/static/js/787.4a7deeb8.chunk.js",
     "static/media/polizzotto.jpg": "/jpolizzotto-portfolio/static/media/polizzotto.13ec53c8e7f0f63f152a.jpg",
     "static/media/book2.png": "/jpolizzotto-portfolio/static/media/book2.92fc54e4cdb64462a111.png",
     "static/media/alley.png": "/jpolizzotto-portfolio/static/media/alley.d8610b631a44cdd03f43.png",
     "static/media/bookfinder.png": "/jpolizzotto-portfolio/static/media/bookfinder.076f7bdcc0683c862c03.png",
     "static/media/employee.png": "/jpolizzotto-portfolio/static/media/employee.362e7d264adb0fa47f92.png",
-    "static/media/cash.png": "/jpolizzotto-portfolio/static/media/cash.56fa8b177007576ef7bd.png",
     "static/media/polizzotto-resume.pdf": "/jpolizzotto-portfolio/static/media/polizzotto-resume.c275f89cb8075dc5ace8.pdf",
     "static/media/script.png": "/jpolizzotto-portfolio/static/media/script.be69f097f48b41fa16a9.png",
+    "static/media/renaissance-rags.png": "/jpolizzotto-portfolio/static/media/renaissance-rags.4a53cb13753accd06632.png",
     "index.html": "/jpolizzotto-portfolio/index.html",
-    "main.17c9c39a.css.map": "/jpolizzotto-portfolio/static/css/main.17c9c39a.css.map",
-    "main.e77be92d.js.map": "/jpolizzotto-portfolio/static/js/main.e77be92d.js.map",
+    "main.10b9a34d.css.map": "/jpolizzotto-portfolio/static/css/main.10b9a34d.css.map",
+    "main.c87443a4.js.map": "/jpolizzotto-portfolio/static/js/main.c87443a4.js.map",
     "787.4a7deeb8.chunk.js.map": "/jpolizzotto-portfolio/static/js/787.4a7deeb8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.17c9c39a.css",
-    "static/js/main.e77be92d.js"
+    "static/css/main.10b9a34d.css",
+    "static/js/main.c87443a4.js"
   ]
 }
