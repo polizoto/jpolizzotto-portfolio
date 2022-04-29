@@ -42,10 +42,10 @@ export default class Work extends Component {
                 <Icon className="icon"  icon="akar-icons:github-outline-fill" height="40" /></a>
                 </div>
             </div>
-            <div id="cash-flow" tabIndex="0" className="project">
+            <div id="renaissance" tabIndex="0" className="project">
                 <div className="img__description">
-                <a className="app-info" aria-label="Cash Flow Analyzer App" href="https://stark-bastion-02307.herokuapp.com/"rel="noreferrer" target="_blank"><h3>Cash Flow Analyzer</h3></a>
-                <a className="GitHub-info" href="https://github.com/polizoto/cash_flow_analyzer" title="GitHub" rel="noreferrer" target="_blank">
+                <a className="app-info" aria-label="Renaissance Rags" href="https://whispering-fjord-16472.herokuapp.com/"rel="noreferrer" target="_blank"><h3>Renaissance Rags</h3></a>
+                <a className="GitHub-info" href="https://github.com/polizoto/renaissance-rags" title="GitHub" rel="noreferrer" target="_blank">
                 <Icon className="icon" icon="akar-icons:github-outline-fill" height="40" /></a>
                 </div>
             </div>

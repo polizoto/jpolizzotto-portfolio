@@ -216,14 +216,14 @@ footer p a:focus     {
   justify-content: space-between;
 }
 
-#cash-flow {
-  background-image: url("./assets/cash.png");
+#renaissance {
+  background-image: url("./assets/renaissance-rags.png");
   border-radius: 15px;
   background-size: cover;
 
 }
 
-#cash-flow:hover {
+#renaissance:hover {
   filter: brightness(100%);
   display: flex;
   justify-content: space-between;
